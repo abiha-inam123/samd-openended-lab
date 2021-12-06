@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="32dp"
+        android:text="Result Card"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/enrol1"
+        android:layout_width="280dp"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="512dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="272dp"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="586dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="145dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="426dp"
+        android:text="Subjects" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="145dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="194dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="421dp"
+        android:text="Grades" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="145dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="365dp"
+        android:text="English" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="145dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="314dp"
+        android:text="Urdu" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="145dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="166dp"
+        android:text="Maths" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="145dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="268dp"
+        android:text="Pakistan Studies" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="150dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="241dp"
+        android:layout_marginBottom="220dp"
+        android:text="Science" />
+
+    <TextView
+        android:id="@+id/eng1"
+        android:layout_width="145dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="368dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/urdu1"
+        android:layout_width="145dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="317dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/pst1"
+        android:layout_width="145dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="265dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/sci1"
+        android:layout_width="145dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="219dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/maths1"
+        android:layout_width="145dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="169dp"
+        android:textSize="20dp" />
+
+</RelativeLayout>

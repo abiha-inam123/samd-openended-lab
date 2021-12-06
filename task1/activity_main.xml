@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="124dp"
+            android:layout_height="45dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="74dp"
+            android:layout_marginBottom="47dp"
+            android:text="clear" />
+
+        <EditText
+            android:id="@+id/edenrol"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="205dp"
+            android:layout_marginBottom="467dp"
+            android:ems="10"
+            android:hint="Enter your Enrollment"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edname"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginEnd="198dp"
+            android:layout_marginBottom="537dp"
+            android:ems="10"
+            android:hint="Enter your Name"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="593dp"
+            android:text="Result Calculator"
+            android:textSize="40dp" />
+
+        <EditText
+            android:id="@+id/mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="61dp"
+            android:layout_marginBottom="346dp"
+            android:ems="10"
+            android:hint="Enter Marks for English"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/mark4"
+            android:layout_width="323dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="168dp"
+            android:ems="10"
+            android:hint="Enter Marks for pst"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/mark5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginEnd="65dp"
+            android:layout_marginBottom="106dp"
+            android:ems="10"
+            android:hint="Enter Marks for Science"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/mark2"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="286dp"
+            android:ems="10"
+            android:hint="Enter Marks for urdu"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/mark3"
+            android:layout_width="308dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginEnd="71dp"
+            android:layout_marginBottom="228dp"
+            android:ems="10"
+            android:hint="Enter Marks for maths"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/cal"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="221dp"
+            android:layout_marginBottom="41dp"
+            android:text="Calculate" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="343dp"
+            android:layout_height="65dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginBottom="403dp"
+            android:text="Enter Marks here"
+            android:textSize="40dp" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

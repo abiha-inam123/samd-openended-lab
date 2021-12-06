@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#03A9F4"
+        android:orientation="vertical"
+        android:padding="30sp"
+        android:scrollbarSize="20dp">
+        <EditText
+            android:id="@+id/editTextNumber"
+            android:hint="Enter First number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            tools:text="Enter First Number" />
+        <EditText
+            android:id="@+id/editTextNumber2"
+            android:layout_width="match_parent"
+            android:hint="Enter Second number"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            tools:text="Enter Second Number" />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="305dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:background="#CFC8CA"
+            android:entries="@array/Semester"
+            android:gravity="center"
+            android:textSize="36sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="171dp" android:layout_height="87dp"
+                android:background="#5798C9D8"
+                android:rotationY="25" android:text="Calculate"
+                app:backgroundTint="#4258D6" />
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="97dp"
+                android:rotationY="-12" android:text="Reset"
+                app:backgroundTint="#912D2D" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textView"
+            android:textSize="30dp" android:layout_width="362dp"
+            android:hint="Result" android:layout_height="75dp"
+            android:text="Result" />
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
